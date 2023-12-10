@@ -42,7 +42,7 @@ class Task008Test {
         onView(
             allOf(
                 withId(R.id.hideButton),
-                withText("hide"),
+                withText("hideButton"),
                 isAssignableFrom(Button::class.java),
                 withParent(isAssignableFrom(LinearLayout::class.java)),
                 withParent(withId(R.id.rootLayout))
